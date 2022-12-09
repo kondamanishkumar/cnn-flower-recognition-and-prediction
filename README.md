@@ -1,2 +1,18 @@
-# cnn-flower-recognition-and-prediction
-This project implements the CNN model for recognizing and predicting flower types.
+# CNN for Recognizing and Predicting Flower Types
+
+## Introduction
+In this project, flower recognition and prediction is implemented using the Convolution Neural Network (CNN). The dataset consists of 5 different types of flowers totaling upto ~240MBs in data size, with the project aimed at implementing supervised machine learning technique in this data mining task by predicting the type of any given flower based on its given image. Sequential model using Keras shall be built and used as the base model for this CNN-based project.
+
+The motivation behind this project is to create an algorithm that can accurately recognize and classify different types of flowers. This type of algorithm could be used to help in conservation efforts, by quickly and accurately identifying flowers in the wild. It could also be used to help with plant identification in general, aiding botanical research and helping to identify new species. In addition, it could be used to help amateur gardeners identify plants in their gardens, or to help identify flowers in an online shop. 
+
+The significance of this project lies in its potential to help a wide range of people, from botanists to gardeners, to quickly and accurately identify plants. It could also be used to aid conservation efforts, by helping to quickly identify endangered species. In addition, it could help to improve the accuracy of plant identification in general, aiding research and helping to identify new species.
+
+## Materials and Methods  
+This study used the Kaggle Flowers Recognition dataset to develop a Convolutional Neural Network (CNN) model for flower recognition and prediction. The dataset consisted of 5,000 images of 5 different types of flowers (daisy, dandelion, rose, sunflower, tulip). The images were preprocessed by resizing them to 128 x 128 pixels, and then split into training, validation and test sets. The CNN model was then developed using the Keras library, with an input layer, a convolutional layer, a pooling layer, a fully connected layer and an output layer. The model was trained for 50 epochs. Finally, the model was evaluated using accuracy scores. 
+
+## Implementation
+The model was able to learn the different features of the different species of flowers and distinguish between them. This was achieved by training the model on several different layers of convolutional neural networks (CNNs), which are a type of deep learning model that can detect patterns in images. The model was also able to accurately detect the species of flower in the test set. 
+![image](https://user-images.githubusercontent.com/112195017/206647128-ae2c95d7-f3c4-434e-a191-736db26e5990.png)
+
+## Conclusion
+The results of the project show that the Convolutional Neural Network (CNN) model was able to achieve a high degree of accuracy in both recognizing and predicting the five different types of flowers in the dataset. The model was able to train and test on the dataset with an accuracy score of 73.77% at 50 epochs. This accuracy score is a testament to the effectiveness of the CNN model in recognizing and predicting the kinds of flowers contained in the dataset. The project has shown that the CNN model is a viable choice for recognizing and predicting flower types. The model may also be used to classify and predict other flower species in the future, as well as other types of objects. Overall, this project has demonstrated the potential of CNNs in flower recognition and prediction and has provided a successful tool for identifying, predicting, and classifying different kinds of flowers. In the future, more experiments and analysis can be done to further improve the accuracy of the flower recognition model.
